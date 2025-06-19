@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Cookies</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" href="../images/logos/Capture.PNG">
+</head>
+<body>
+  <!-- Navbar starts -->
+  <nav class="navbar  navbar-expand-lg nav">
+    <img src="../images/logos/Capture-removebg-preview.png" width="50" height="40" alt="">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Products
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../products/cakes.html">Cakes</a>
+            <a class="dropdown-item active" href="../products/cookies.html">Cookies</a>
+            <a class="dropdown-item" href="../products/pastries.html">Pastries</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Merchandise
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../merchandise/bags.html">Bags</a>
+            <a class="dropdown-item" href="../merchandise/glasses.html">Glasses</a>
+            <!-- <div class="dropdown-divider"></div> -->
+            <a class="dropdown-item" href="../merchandise/mugs.html">Mugs</a>
+            <a class="dropdown-item" href="../merchandise/trays.html">Trays</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../contactus.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- navbar ends -->
+  <!-- cards starts -->
+  <section class="cookies"><br>
+    <h4 class="f">Cookies</h4>
+    <div class="container">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="../images/Cookies/1.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Vanilla Filled Biscuits</h5>
+            <p class="card-text">It is made with our own pure chocolate and vanilla which creates a very delicate taste. it is 
+              a great snack for a person looking for pleasure in every Bite.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-outline-light"  data-toggle="modal" data-target="#exampleModal">
+                More Details
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Vanilla Filled Biscuits</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <table>
+                        <tr>
+                          <td><img src="../images/Cookies/1.jpeg" alt="" class="i"></td>
+                          <td><p>It is made with our own pure chocolate and vanilla which creates a very delicate taste. it is 
+                            a great snack for a person looking for pleasure in every Bite.<br><b>Price: Rs1000 per plate</b></p></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                      <a href="../gallery.html"><button type="button" class="btn btn-outline-dark">View More</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="../images/Cookies/2.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Crispy Choco Bites</h5>
+            <p class="card-text">It is made with our own pure chocolate which creates a very delicate taste. it is 
+              a great snack for a person looking for pleasure in every Bite.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light"  data-toggle="modal" data-target="#exampleModal1">
+              More Details
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">Crispy Choco Bites</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <table>
+                      <tr>
+                        <td><img src="../images/Cookies/2.webp" alt="" class="i"></td>
+                        <td><p>It is made with our own pure chocolate which creates a very delicate taste. it is 
+                          a great snack for a person looking for pleasure in every Bite.<br><b>Price: Rs500 per plate</b></p></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                    <a href="../gallery.html"><button type="button" class="btn btn-outline-dark">View More</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="../images/Cookies/3.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Coconut Biscuit</h5>
+            <p class="card-text">It is made with our own coconuts pure chocolate which creates a very delicate taste. it is 
+              a great snack for a person looking for pleasure in every Bite.</p>
+              <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light"  data-toggle="modal" data-target="#exampleModal2">
+              More Details
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">Coconut Biscuit</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <table>
+                      <tr>
+                        <td><img src="../images/Cookies/3.jpeg" alt="" class="i"></td>
+                        <td>It is made with our own coconuts pure chocolate which creates a very delicate taste. it is 
+                          a great snack for a person looking for pleasure in every Bite.<br><b>Price: Rs600 per plate</b></p></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                    <a href="../gallery.html"><button type="button" class="btn btn-outline-dark">View More</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="../images/Cookies/4.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Chocolaty Jelly</h5>
+            <p class="card-text">It is made with our own pure chocolate jellies and vanilla which creates a very delicate taste. it is 
+              a great snack for a person looking for pleasure in every Bite.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-outline-light"  data-toggle="modal" data-target="#exampleModal3">
+                More Details
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel3">Chocolaty Jelly</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <table>
+                        <tr>
+                          <td><img src="../images/Cookies/4.jpeg" alt="" class="i"></td>
+                          <td><p>It is made with our own pure chocolate jellies and vanilla which creates a very delicate taste. it is 
+                            a great snack for a person looking for pleasure in every Bite.<br><b>Price: Rs600 per plate</b></p></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                      <a href="../gallery.html"><button type="button" class="btn btn-outline-dark">View More</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="../images/Cookies/5.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate Crunch Biscuits</h5>
+            <p class="card-text">It is made with our own pure chocolate which creates a very delicate taste. it is 
+              a great snack for a person looking for pleasure in every Bite.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light"  data-toggle="modal" data-target="#exampleModal4">
+              More Details
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel4">Chocolate Crunch Biscuits</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <table>
+                      <tr>
+                        <td><img src="../images/Cookies/5.jpeg" alt="" class="i"></td>
+                        <td><p>It is made with our own pure chocolate which creates a very delicate taste. it is 
+                          a great snack for a person looking for pleasure in every Bite.<br><b>Price: Rs200 per plate</b></p></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                    <a href="../gallery.html"><button type="button" class="btn btn-outline-dark">View More</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="../images/Cookies/6.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Choco Bites</h5>
+            <p class="card-text">It is made with our own pure chocolate which creates a very delicate taste. it is 
+              a great snack for a person looking for pleasure in every Bite.</p>
+              <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light"  data-toggle="modal" data-target="#exampleModal5">
+              More Details
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel5">Choco Bites</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <table>
+                      <tr>
+                        <td><img src="../images/Cookies/6.webp" alt="" class="i"></td>
+                        <td><p>It is made with our own pure chocolate which creates a very delicate taste. it is 
+                          a great snack for a person looking for pleasure in every Bite.<br><b>Price: Rs500 per plate</b></p></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                    <a href="../gallery.html"><button type="button" class="btn btn-outline-dark">View More</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="../images/Cookies/7.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Van Choc Biscuits</h5>
+            <p class="card-text">It is made with our own pure choco bites which creates a very delicate taste. it is 
+              a great snack for a person looking for pleasure in every Bite.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-outline-light"  data-toggle="modal" data-target="#exampleModal6">
+                More Details
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel6">Van Choc Biscuits</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <table>
+                        <tr>
+                          <td><img src="../images/Cookies/7.jpeg" alt="" class="i"></td>
+                          <td><p>It is made with our own pure choco bites which creates a very delicate taste. it is 
+                            a great snack for a person looking for pleasure in every Bite.<br><b>Price: Rs200 per plate</b></p></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                      <a href="../gallery.html"><button type="button" class="btn btn-outline-dark">View More</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="../images/Cookies/8.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Vanilla Filled Oreo</h5>
+            <p class="card-text">It is made with our own pure chocolate and vanilla which creates a very delicate taste. it is 
+              a great snack for a person looking for pleasure in every Bite.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light"  data-toggle="modal" data-target="#exampleModal7">
+              More Details
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel7">Vanilla Filled Oreo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <table>
+                      <tr>
+                        <td><img src="../images/Cookies/8.jpeg" alt="" class="i"></td>
+                        <td><p>It is made with our own pure chocolate and vanilla which creates a very delicate taste. it is 
+                          a great snack for a person looking for pleasure in every Bite.<br><b>Price: Rs200 per plate</b></p></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                    <a href="../gallery.html"><button type="button" class="btn btn-outline-dark">View More</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="../images/Cookies/9.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Zera Biscuits</h5>
+            <p class="card-text">It is made with zera which creates a salty taste. It is a great snack for 
+              a person looking for pleasure in every Bite. It is especially made for those who avoid sugar.</p>
+              <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light"  data-toggle="modal" data-target="#exampleModal8">
+              More Details
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel8">Zera Biscuits</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <table>
+                      <tr>
+                        <td><img src="../images/Cookies/9.jpeg" alt="" class="i"></td>
+                        <td><p>It is made with zera which creates a salty taste. It is a great snack for 
+                          a person looking for pleasure in every Bite. It is especially made for those who avoid sugar.<br><b>Price: Rs200 per plate</b></p></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                    <a href="../gallery.html"><button type="button" class="btn btn-outline-dark">View More</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br>
+  </section>
+  <!-- cards ends -->
+  <!-- footer starts -->
+  <div class="container-fluid footer"><br>
+    <div class="row">
+      <div class="col-sm-3 col-md-6 col-lg-4">
+        <h3 class="i">Our Pages</h3>
+        <ul class="g">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../aboutus.html">About Us</a></li>
+          <li><a href="../products.html" class="active">Products</a></li>
+          <li><a href="../merchandise.html">Merchandise</a></li>
+          <li><a href="../contactus.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3 col-md-6 col-lg-4">
+        <h3 class="i">Address</h3>
+        <ul class="g">
+          <li><i class="fas fa-home" style="color: #0267ff;"></i>  BLOCK 06, P.E.C.H.S, KARACHI, PK</li><br>
+          <li><i class="fas fa-envelope" style="color: #0267ff;"></i>  muneebzaffar532@gmail.com</li><br>
+          <li><i class="fas fa-phone" style="color: #0267ff;"></i>  03033291858</li>
+        </ul> 
+      </div>
+      <div class="col-sm-3 col-md-6 col-lg-4"><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d57916.18787205821!2d66.9870986!3d24.8719858!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea3db108f41%3A0x42acc4507358b160!2sAptech%20Learning%2C%20Shahrah%20e%20Faisal%20Center!5e0!3m2!1sen!2s!4v1689999220699!5m2!1sen!2s" width="auto" height="auto" style="border:0;padding-right: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div><br>
+    <div class="text-center p-4 " style="background-color: #0267ff; color: white; border-radius: 10px;">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="../index.html"><b>BAKERZ BITE</b></a>
+    </div><br>
+  </div>
+  <!-- footer ends -->
+</body>
+</html>
